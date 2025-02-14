@@ -68,10 +68,18 @@
   header h1 {
     font-size: 48px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding: 0px;
   }
   header p {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding: 5px;
+  }
+  header p#menor{
+    font-size: 15px;
+    margin-top: 15px;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
   }
