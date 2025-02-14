@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proteção Animal - Segurança e Denúncia</title>
+  <link rel="shortcut icon" href="midia/icons8-cachorro-48.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Menu de navegação fixo -->
+  <nav>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <ul id="nav-list">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#proteger">Como Proteger</a></li>
+      <li><a href="#denuncia">Denúncia</a></li>
+      <li><a href="#recursos">Recursos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+  <div class="spacer"></div>
+
+  <!-- Seção Home -->
+  <header id="home">
+    <div>
+      <h1>Proteção Animal</h1>
+      <p>Cuidando e defendendo nossos amigos de quatro patas</p>
+    </div>
+  </header>
+
+  <!-- Seção Sobre -->
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>Este site foi criado para promover a segurança e o bem-estar dos animais domésticos, oferecendo informações valiosas sobre cuidados, proteção e os procedimentos para denunciar maus-tratos.</p>
+    <p>Acreditamos que, com educação e informações corretas, todos podem contribuir para um mundo mais justo e compassivo para os animais.</p>
+  </section>
+
+  <!-- Seção Como Proteger -->
+  <section id="proteger">
+    <h2>Como Proteger os Animais</h2>
+    <h3>Cuidados Essenciais</h3>
+    <ul>
+      <li>Alimentação balanceada e adequada.</li>
+      <li>Atendimento veterinário regular.</li>
+      <li>Ambiente seguro e confortável.</li>
+      <li>Exercícios e brincadeiras para estimular a saúde física e mental.</li>
+    </ul>
+    <h3>Dicas de Segurança</h3>
+    <p>Mantenha o ambiente onde os animais ficam sempre seguro, evitando o acesso a produtos químicos, objetos cortantes e locais de risco.</p>
+  </section>
+
+  <!-- Imagem centralizada -->
+  <img class="img" id="imagem" src="midia/pexels-ubaidshareef-20816519-menor.jpg" alt="Cachorro e gato">
+
+  <!-- Seção Denúncia -->
+  <section id="denuncia">
+    <h2>Como Denunciar Maus-Tratos</h2>
+    <p>Se você presenciar ou suspeitar de maus-tratos a animais, denuncie imediatamente. Sua ação pode salvar vidas!</p>
+    <ul>
+      <li><strong>Telefone:</strong> Ligue para a Polícia (190) ou para o Disque Denúncia.</li>
+      <li><strong>Registro:</strong> Sempre que possível, registre a situação com fotos ou vídeos que possam comprovar o ocorrido.</li>
+      <li><strong>Órgãos Competentes:</strong> Procure a Delegacia de Proteção Animal.</li>
+      <li><strong>Anonimato:</strong> A denúncia pode ser feita de forma anônima para garantir sua segurança.</li>
+    </ul>
+  </section>
+
+  <!-- Seção Recursos -->
+  <section id="recursos">
+    <h2>Recursos e Informações Adicionais</h2>
+    <ul id="links">
+      <li><img src="midia/7046086-20px.png" alt="Link"><a href="https://forumanimal.org/site/" target="_blank">Fórum Nacional de Proteção e Defesa Animal</a></li>
+      <li><img src="midia/7046086-20px.png" alt="Link"><a href="https://www.sosanimais.com" target="_blank">SOS Animais</a></li>
+      <li><img src="midia/7046086-20px.png" alt="Link"><a href="https://www.webdenuncia.sp.gov.br/depa" target="_blank">Delegacia Eletrônica de Proteção Animal</a></li>
+      <li><img src="midia/7046086-20px.png" alt="Link"><a href="https://www.mma.gov.br" target="_blank">Ministério do Meio Ambiente</a></li>
+    </ul>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Tem dúvidas, sugestões ou precisa de ajuda? Entre em contato comigo preenchendo o formulário abaixo:</p>
+    <form id="emailForm">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="Nome" placeholder="Seu nome" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="Email" placeholder="Seu email" required>
+      
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="Mensagem" placeholder="Sua mensagem..." rows="5" required></textarea>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2025 Proteção Animal. Todos os direitos reservados.</p>
+    <p>Desenvolvido por Guilherme Barros Oliveira</p>
+  </footer>
+</body>
+</html>
