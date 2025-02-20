@@ -6,6 +6,9 @@
   <title>Proteção Animal - Segurança e Denúncia</title>
   <link rel="shortcut icon" href="midia/icons8-cachorro-48.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  <!-- Carregue a biblioteca do EmailJS via jsDelivr (versão atual) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <!-- Carrega nosso script principal com defer para garantir que o DOM esteja pronto -->
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -21,8 +24,8 @@
       <li><a href="#contato">Contato</a></li>
     </ul>
   </nav>
+  <div class="spacer"></div>
 
-  <!-- Seção Home -->
   <header id="home">
     <div>
       <h1>Proteção Animal</h1>
@@ -31,7 +34,6 @@
     </div>
   </header>
 
-  <!-- Seção Sobre -->
   <section id="sobre">
     <h2>Sobre o Projeto</h2>
     <p>Este site foi criado para promover a segurança e o bem-estar dos animais domésticos, oferecendo informações valiosas sobre cuidados, proteção e os procedimentos para denunciar maus-tratos. Aqui, você encontrará orientações detalhadas, dicas práticas e links para órgãos e entidades que atuam na defesa dos direitos dos animais.</p>
@@ -39,7 +41,6 @@
     <p>Por meio deste portal, espero inspirar ações que transformem a realidade de inúmeros animais que sofrem com negligência e maus-tratos, promovendo uma convivência harmoniosa entre humanos e animais.</p>
   </section>
 
-  <!-- Seção Como Proteger -->
   <section id="proteger">
     <h2>Como Proteger os Animais</h2>
     <h3>Cuidados Essenciais</h3>
@@ -54,10 +55,8 @@
     <p>Investir em treinamentos básicos e na socialização pode prevenir comportamentos que os coloquem em risco, garantindo uma convivência mais harmoniosa tanto dentro quanto fora de casa.</p>
   </section>
 
-  <!-- Imagem centralizada -->
   <img class="img" id="imagem" src="midia/pexels-ubaidshareef-20816519-menor.jpg" alt="Cachorro e gato">
 
-  <!-- Seção Denúncia -->
   <section id="denuncia">
     <h2>Como Denunciar Maus-Tratos</h2>
     <p>Se você presenciar ou suspeitar de maus-tratos a animais, denuncie imediatamente. Sua ação pode salvar vidas e evitar que a violência continue. Denunciar é um ato de coragem e solidariedade, fortalecendo a rede de proteção animal e contribuindo para um ambiente mais seguro.</p>
@@ -70,7 +69,6 @@
     <p>Lembre-se: mesmo que você não tenha todas as evidências, sua preocupação e sua denúncia podem desencadear uma investigação que leve à proteção dos animais em situação de risco.</p>
   </section>
 
-  <!-- Seção Recursos -->
   <section id="recursos">
     <h2>Recursos e Informações Adicionais</h2>
     <p>Explore os links abaixo para acessar materiais educativos, redes de apoio e informações atualizadas sobre proteção animal. Estes recursos são fundamentais para quem deseja se informar, atuar e apoiar iniciativas que promovem a defesa e o bem-estar dos animais.</p>
@@ -82,7 +80,6 @@
     </ul>
   </section>
 
-  <!-- Seção Contato -->
   <section id="contato">
     <h2>Contato</h2>
     <p>Tem dúvidas, sugestões ou precisa de ajuda? Sua opinião é muito importante para mim! Entre em contato preenchendo o formulário abaixo. Estou sempre aberto a ouvir suas ideias e aprimorar esta plataforma, para que, juntos, possamos fazer a diferença na vida dos animais.</p>
@@ -100,7 +97,6 @@
     </form>
   </section>
 
-  <!-- Rodapé -->
   <footer>
     <p>&copy; 2025 Proteção Animal. Todos os direitos reservados.</p>
     <p>Desenvolvido por Guilherme Barros Oliveira</p>
